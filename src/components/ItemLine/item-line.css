@@ -1,0 +1,11 @@
+.iline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.iline__line {
+  width: 85%;
+  padding: 0.5px 0;
+  background-color: #d6d6d6;
+}

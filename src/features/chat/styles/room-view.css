@@ -1,0 +1,13 @@
+.list-container {
+  /* Box Model */
+  height: calc(100% - 180px);
+  overflow-y: auto;
+  border-radius: 2px;
+  padding: 0 10px !important;
+  margin-top: 150px;
+
+  /* View */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

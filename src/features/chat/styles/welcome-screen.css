@@ -1,0 +1,106 @@
+.wcs-container {
+  height: 80%;
+}
+
+.wcs-userinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wcs-userinfo__avatar {
+  width: 120px;
+  height: 120px;
+}
+
+.wcs-userinfo__avatar--grow {
+  /* Box Model */
+  border-radius: 100%;
+  padding: 3px;
+
+  /* View */
+  display: inline-block;
+
+  /* Background */
+  background-color: #4463ff;
+
+  /* Animation */
+  animation-name: avatarGrow;
+  animation-duration: 0.5s;
+}
+
+@keyframes avatarGrow {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.wcs-userinfo__text {
+  /* View */
+  display: inherit;
+  justify-content: center;
+  opacity: 0;
+
+  /* Animation */
+  animation-name: textGrow;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes textGrow {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.wcs-userinfo__text--welcome {
+  margin-right: 5px;
+}
+
+.wcs-userinfo__text--name {
+  font-weight: 700;
+}
+
+.wcs-userinfo__tut {
+  /* View */
+  opacity: 0;
+
+  /* Animation */
+  animation-name: tutGrow;
+  animation-delay: 0.8s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tutGrow {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 0.5;
+  }
+}
+
+.wcs-text {
+  /* Box Model */
+  display: inline-block;
+  margin: 5px 0;
+  overflow: hidden;
+
+  /* Text */
+  font-size: x-large;
+  white-space: nowrap;
+}
