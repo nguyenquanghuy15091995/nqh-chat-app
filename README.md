@@ -33,17 +33,18 @@ Run project:
 >
 
 Database structure:
-
-.
-+<--Project-name-databse-->
-|
-+--admins *()*
-|  |
-|  +--<--key-object-->
-|      |
-|      +--email: <--email-->
-|      |
-|      +--id: <--object-id-->
-|
-+--totalRoom: 0
-
+```bash
+> 
+> +<--Project-name-databse-->
+> |
+> +--admins *()*
+> |  |
+> |  +--<--key-object-->
+> |      |
+> |      +--email: <--email-->
+> |      |
+> |      +--id: <--object-id-->
+> |
+> +--totalRoom: 0
+>
+```
