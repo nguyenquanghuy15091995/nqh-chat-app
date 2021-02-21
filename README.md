@@ -36,7 +36,7 @@ Database structure:
 ```bash
 +<--Project-name-databse-->
 |
-+--admins *()*
++--admins // the element of admin list can create room
 |  |
 |  +--<--key-object-->
 |      |
