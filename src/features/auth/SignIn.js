@@ -10,7 +10,6 @@ function SignIn() {
     // We will display Google as auth providers.
     signInOptions: [
       firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      firebase.auth.FacebookAuthProvider.PROVIDER_ID,
     ],
   };
 
