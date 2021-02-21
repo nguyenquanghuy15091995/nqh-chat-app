@@ -34,16 +34,16 @@ Run project:
 
 Database structure:
 
->
-> <--Project-name-databse-->
+> .
+> +<--Project-name-databse-->
 > |
-> |__admins *()*
+> +--admins *()*
 > |  |
-> |  |__<--key-object-->
+> |  +--<--key-object-->
 > |      |
-> |      |__email: <--email-->
+> |      +--email: <--email-->
 > |      |
-> |      |__id: <--object-id-->
+> |      +--id: <--object-id-->
 > |
-> |__totalRoom: 0
+> +--totalRoom: 0
 >
