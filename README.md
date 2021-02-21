@@ -13,18 +13,18 @@ Run project:
 
 #### Step 1:
 
->
+
 > Create **.env** file at root project.
 > In **.env** file you will create firebase config variable (Get on firebase project).
->
-> REACT_APP_FIREBASE_API_KEY=.....
-> REACT_APP_FIREBASE_AUTH_DOMAIN=.....
-> REACT_APP_FIREBASE_PROJECT_ID=.....
-> REACT_APP_FIREBASE_DATABASE_URL=.....
-> REACT_APP_FIREBASE_STORAGE_BUCKET=.....
->
-> ***Notes:*** *In React project the environment variable name must start with "REACT_APP_"*
->
+
+REACT_APP_FIREBASE_API_KEY=.....
+REACT_APP_FIREBASE_AUTH_DOMAIN=.....
+REACT_APP_FIREBASE_PROJECT_ID=.....
+REACT_APP_FIREBASE_DATABASE_URL=.....
+REACT_APP_FIREBASE_STORAGE_BUCKET=.....
+
+***Notes:*** *In React project the environment variable name must start with "REACT_APP_"*
+
 
 #### Step 2:
 
@@ -34,17 +34,15 @@ Run project:
 
 Database structure:
 ```bash
-> 
-> +<--Project-name-databse-->
-> |
-> +--admins *()*
-> |  |
-> |  +--<--key-object-->
-> |      |
-> |      +--email: <--email-->
-> |      |
-> |      +--id: <--object-id-->
-> |
-> +--totalRoom: 0
->
++<--Project-name-databse-->
+|
++--admins *()*
+|  |
+|  +--<--key-object-->
+|      |
+|      +--email: <--email-->
+|      |
+|      +--id: <--object-id-->
+|
++--totalRoom: 0
 ```
